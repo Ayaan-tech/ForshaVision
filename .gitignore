@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Media and outputs
+output_videos/
+input_videos/
+*.mp4
+*.avi
+*.mov
+
+# Datasets and Models
+training/football-players-detection-1/
+*.pt
+*.pth
+*.onnx
+training/models/
+
+# Stubs and caches
+stubs/
+*.pkl
+runs/
+
+# Virtual environments
+.venv/
+venv/
+env/
